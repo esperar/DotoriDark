@@ -1,0 +1,86 @@
+
+body{
+    background-color: rgb(26, 24, 24);
+}
+
+.DotoriLogo{
+    position: fixed;;
+    top: 120px;
+    left:659px;
+}
+
+.Mynameis{
+    color:rgba(16, 66, 182, 0.978);
+    font-size : 48px;
+    position:absolute;
+    left:647px;
+    top:265px;
+    font-weight: 800;
+}
+
+[type = "text"]{
+    display:flex;
+    position:absolute;
+    top:390px;
+    left: 520px;
+    width : 440px;
+    height : 30px;
+    border : 2px solid royalblue;
+    border-radius: 8px;
+    background-color: rgb(15, 15, 15);
+    color : white;
+}
+
+[type = "password"]{
+    display:flex;
+    position:absolute;
+    top:440px;
+    left: 520px;
+    width : 440px;
+    height : 30px;
+    border : 2px solid royalblue;
+    border-radius: 8px;
+    background-color: rgb(15, 15, 15);
+    color : white;
+}
+
+input::placeholder{
+    color:rgb(109, 109, 109);
+    font-size : 105%;
+    font-weight: 600;
+    padding:1px;
+}
+
+.loginbtn{
+    color:white;
+    background-color: royalblue;
+    font-size : 27px;
+    font-weight: 700;
+    text-align: center;
+    width : 448px;
+    height : 44px;
+    position:absolute;
+    top: 510px;
+    left : 520px;
+    border-radius: 10px;
+    cursor : pointer;
+    
+}
+.loginbtn:active{
+    background-color: white;
+    border : 2px solid royalblue;
+    color:royalblue;
+}
+
+.another{
+    color : rgb(182, 182, 182);
+    background-color: rgb(26, 24, 24);
+    position: relative;
+    width:440px;
+    height:40px;
+    top:570px;
+    left:515px;
+    border-top : 1px solid gray;
+    text-align: center;
+    font-size : 12px;
+}

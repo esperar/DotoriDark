@@ -1,0 +1,182 @@
+body{
+    margin : 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu{
+    display : flex;
+    background-color: rgb(70, 70, 70);
+    width : 270px;
+    height: 752px;
+    flex-direction: column;
+
+}
+
+.DotoriMark{
+    margin-left: 48px;
+    margin-top: 32px;
+    width : 150px ; height : 150px;
+}
+
+.page li{
+    list-style: none;
+    font-style: normal;
+    margin-top: 36px; margin-left: 23px;
+    margin-bottom: 14px; margin-right: 18px;
+}
+
+.menu a{
+    text-decoration: none;
+    color : rgb(188, 188, 188);
+    font-size : 24px;
+    font-weight: 800;
+}
+
+.thereishome{
+    position : absolute;
+    left:320px; top:36px;
+    font-size: 54px;
+    font-weight: 700;
+    color:white;
+}
+
+.Date{
+    color : white;
+    position : relative;
+    left: 74px; bottom : 35px;
+    font-size : 22px;
+    font-weight : 500;
+}
+.clean{
+    position : absolute;
+    top: 125px;
+    left : 310px;
+    background-color: rgba(230, 230, 230, 0.327);
+    width: 1180px;
+    height : 100px;
+    border-radius: 16px;
+}
+.info{
+    padding-top: 8px;
+    padding-left : 28px;
+    font-size: 26px;
+    font-weight: 700;
+    color: white; 
+}
+
+.identity{
+    background-color: rgba(230, 230, 230, 0.259);;
+    border: 3px solid royalblue;
+    position: absolute;
+    top: 259px;
+    left: 311px;;
+    width: 350px;
+    height: 455px;
+    border-radius: 16px;
+    margin : 0;
+    padding:0;
+}
+
+.ident{
+    position: relative;
+    top: 1px;
+    left:18px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 14px;
+    color : white;
+    height : 50px;
+    width: 250px;
+    margin-right:0;
+}
+
+.logout{
+    position: relative;
+    color:rgba(200, 193, 193, 0.9);
+    left: 269px;
+    bottom: 170px;
+    height : 20px;
+    width: 280px;
+    display: inline;
+}
+
+.DotoriMe{
+    position:relative;
+    bottom: 20px;
+    left : 40px;
+}
+
+.identity_name{
+    color : white;
+    display: inline;
+    position: relative;
+    top: 40px;
+    right:88px;
+    font-weight: 700;
+    font-size : 20px;
+    width : 100px;
+    height:30px;
+
+}
+
+.identity_number{
+    color:rgba(162, 160, 160, 0.978);
+    display: inline;
+    position: relative;
+    top: 38px;;
+    right: 60px;
+    font-size: 17px;
+    height: 30px;
+    font-weight: 700;
+}
+
+.violation{
+    background-color: royalblue;
+    color:white;
+    width : 150px;
+    height:32px;
+    position:relative;
+    top: 73px;
+    display: inline;
+    left : 104px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size : 102%;
+    cursor : pointer;
+}
+
+.violation:hover{
+    background-color: white;
+    border : 3px solid royalblue;
+    color:royalblue;
+}
+
+.ChangePassword{
+    color:gray;
+    position: absolute;
+    left: 128px;
+    bottom:95px;
+    font-weight: 600;
+    font-size : 97%;
+}
+
+.Madein{
+    font-size: 70%;
+    position:absolute;
+    bottom:37px;
+    left: 63px;
+    color:rgb(255, 255, 255);
+}
+
+#MadeinLink{
+    font-size:10px;
+    position:absolute;
+    bottom: 21px;
+    left: 105px;
+}
+
+#MadeinLink a{
+    text-decoration: none;
+    color: skyblue;
+    
+}
