@@ -64,8 +64,8 @@ input::placeholder{
     left : 520px;
     border-radius: 10px;
     cursor : pointer;
-    
 }
+
 .loginbtn:active{
     background-color: white;
     border : 2px solid royalblue;
