@@ -1,6 +1,7 @@
 body{
     margin : 0;
     background-color: rgb(0, 0, 0);
+    line-height: 1.4;
 }
 
 .menu{
@@ -34,7 +35,7 @@ body{
 
 .thereishome{
     position : absolute;
-    left:320px; top:36px;
+    left:320px; top:40px;
     font-size: 54px;
     font-weight: 700;
     color:white;
@@ -43,25 +44,47 @@ body{
 .Date{
     color : white;
     position : relative;
-    left: 74px; bottom : 35px;
+    left: 74px; bottom : 36px;
     font-size : 22px;
     font-weight : 500;
 }
-.clean{
+.swiper{
+    display: flex;
     position : absolute;
-    top: 125px;
-    left : 310px;
+    top: -4px;
+    left : -8px;
     background-color: rgba(230, 230, 230, 0.327);
     width: 1180px;
+    margin-right:0;
     height : 100px;
     border-radius: 16px;
 }
-.info{
+.swiper-slide{
+    margin-top:22px;
+    justify-content: center;
+    align-items: center;
+    position:relative;
     padding-top: 8px;
     padding-left : 28px;
     font-size: 26px;
     font-weight: 700;
     color: white; 
+}
+
+.swiper .swiper-slide .thisisnotice{
+    position:absolute;
+    font-size:22px;
+    left:8px;
+    top:0;
+    margin-bottom: 3px;
+
+}
+.swiper .swiper-slide .none_notice{
+    position: absolute;
+    top:33px;
+    left:10px;
+    font-size : 14px;
+    font-weight: 500;
 }
 
 .identity{
@@ -158,6 +181,7 @@ body{
     bottom:95px;
     font-weight: 600;
     font-size : 97%;
+    cursor : pointer;
 }
 
 .Madein{
@@ -184,7 +208,7 @@ body{
 .selfstudy{
     position : absolute;
     top:258px;
-    left:710px;
+    left:700px;
     display: flex;
     width:420px;
     height:218px;
@@ -244,7 +268,7 @@ div > progress{
     height: 50px;
     color: white;
     top: 65px;
-    left:140px;
+    left:154px;
 }
 .selfstudy .notice_reserve{
     color : rgb(172, 172, 172);
@@ -257,7 +281,7 @@ div > progress{
 .chair{
     position : absolute;
     top:512px;
-    left:710px;
+    left:700px;
     display: flex;
     width:420px;
     height:200px;
@@ -281,3 +305,96 @@ div > progress{
     font-weight : 500;
 }
 
+.chair .count_reserve_value{
+    position: inherit;
+    display: flex;
+    font-size : 48px;
+    font-weight: 600;
+    width : 200px;
+    height: 50px;
+    color: white;
+    top: 52px;
+    left:137px;
+}
+
+.chair .notice_reserve{
+    color : rgb(172, 172, 172);
+    position: inherit;
+    display: inline;
+    top: 165px;
+    left : 84px;
+    font-size : 13px;
+}
+.chair .notice_reserve2{
+    color : rgb(76, 138, 220);
+    position: inherit;
+    display: inline;
+    top: 182px;
+    left : 51px;
+    font-size : 11px;
+}
+
+.chair .count_reserve{
+    position:inherit;
+    top:126px;
+    left : 150px;
+    margin-bottom: 20px;
+}
+.chair .count_reserve .reserve_btn{
+    width : 112px;
+    height : 34px;
+    font-size:18px; font-weight: 600;
+    color : white;
+    background-color: royalblue;
+    border : 1px solid royalblue;
+    border-radius: 6px;
+}
+.chair .count_reserve .reserve_btn:hover{
+    cursor : pointer;
+    background-color: white;
+    color : royalblue;
+    border: 3px solid royalblue;
+}
+.chair .progress2{
+    top:104px;
+}
+
+.chair .count_reserve_value_c{
+    position: inherit;
+    display: flex;
+    font-size : 48px;
+    font-weight: 600;
+    width : 200px;
+    height: 50px;
+    color: white;
+    top: 42px;
+    left:168px;
+}
+
+.food{
+    background-color: rgba(230, 230, 230, 0.259);;
+    border: 3px solid royalblue;
+    position: absolute;
+    top: 259px;
+    left: 1155px;
+    width: 330px;
+    height: 455px;
+    border-radius: 16px;
+    margin : 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food .foodintro{
+    color : white;
+    font-size : 110%;
+    margin : 13px 16px;
+    font-weight: 600;
+}
+
+.food .menu_time{
+    color : rgb(173, 172, 172);
+    font-size : 15px;
+    margin : 15px;
+}

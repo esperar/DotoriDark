@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Dotori</title>
     <link rel="stylesheet" href="css/style.css">
+
     <script src="https://kit.fontawesome.com/081f9aee4b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src = "js/app.js" defer></script>
+    <script src = "js/date.js" defer></script>
 </head>
 <body>
     <div class = "menu">
@@ -31,13 +37,18 @@
         </ul>
     </div>
     <div class="thereishome">
-      <div> 홈 </div>
+      <div class ="imhome"> 홈 </div>
       <div class = "Date"></div>
+      <div class ="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class = "swiper-slide">오늘의 청소는 없어요</div>
+        <div class = "swiper-slide"><div class ="thisisnotice">공지사항</div>
+            <div class="none_notice">최근에 등록된 공지사항이 없어요</div></div>
+    </div>
+    </div>
     </div>
     
-    <div class ="clean">
-        <p class = "info">오늘의 청소는 없어요</p>
-    </div>
+ 
     <div class ="identity">
         <p class = "ident">프로필</p>        
         <p class = "logout">로그아웃</p>
@@ -74,6 +85,23 @@
     <div class="chair">
         <div class="chair_text">안마의자 신청</div>
         <div class="chair_reserve_count">신청현황 ></div>
+        <div class="count_reserve_value_c">
+
+        </div>
+        <div class="count_reserve">
+            <button class = "reserve_btn">신청</button>
+        </div>
+        <div class="notice_reserve">
+            20:20 ~ 21:00 에 안마의자 신청이 가능해요
+        </div>
+        <div class="notice_reserve2">
+            ※ 여학생의 경우 여자 사감선생님께 별도로 신청해주시기 바랍니다.
+        </div>
+        <progress class = "progress2" value ="0" max = "5"></progress>
+    </div>
+    <div class="food">
+        <div class="foodintro">급식</div>
+        <div class="menu_time">아침 점심 저녁</div>
     </div>
     
 </body>
